@@ -12,6 +12,7 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+    margin: 0.5rem; /* Espaçamento em dispositivos menores */
 }
 
 @media screen and (min-width: 992px) {
@@ -21,4 +22,13 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+.pagination button {
+    cursor: pointer; /* Indica que é clicável */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.pagination button:hover {
+    background-color: #5a67d8; /* Um tom mais escuro ao passar o mouse */
 }
